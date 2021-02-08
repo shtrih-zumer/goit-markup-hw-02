@@ -1,3 +1,38 @@
-body{
-    background: #000;
+.logotip-header{
+    color: rgb(00, 00, 00);
+}
+
+.logotip-footer{
+    color: rgb(255, 255, 255);
+}
+
+.logo-first {
+    color: rgb(33, 150, 243);
+}
+
+body, a {
+    color: rgb(33, 33, 33);
+}
+
+a:hover,
+a.info:hover{
+    color: rgb(33, 150, 243);
+}
+
+.text-auxiliary{
+    color: rgb(75, 75, 75);
+}
+
+
+button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 150, 243);
+}
+
+.bg-second{
+    background-color: rgb(47, 48, 58);
+}
+
+.bg-third{
+    background-color: rgb(245, 244, 250);
 }
