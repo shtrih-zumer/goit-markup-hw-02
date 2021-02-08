@@ -1,22 +1,28 @@
+:root{
+    --text-main-color: rgb(33, 33, 33);
+    --text-bg-blue: rgb(33, 150, 243);
+    --text-bg-while: rgb(255, 255, 255);
+}
+
 .logotip-header{
     color: rgb(00, 00, 00);
 }
 
 .logotip-footer{
-    color: rgb(255, 255, 255);
+    color: var(--text-bg-while);
 }
 
 .logo-first {
-    color: rgb(33, 150, 243);
+    color: var(--text-bg-blue);
 }
 
 body, a {
-    color: rgb(33, 33, 33);
+    color: var(--text-main-color);
 }
 
 a:hover,
 a.info:hover{
-    color: rgb(33, 150, 243);
+    color: var(--text-bg-blue);
 }
 
 .text-auxiliary{
@@ -25,8 +31,8 @@ a.info:hover{
 
 
 button{
-    color: rgb(255, 255, 255);
-    background-color: rgb(33, 150, 243);
+    color: var(--text-bg-while);
+    background-color: var(--text-bg-blue);
 }
 
 .bg-second{
@@ -34,5 +40,5 @@ button{
 }
 
 .bg-third{
-    background-color: rgb(245, 244, 250);
+    background-color: var(--text-bg-while);
 }
