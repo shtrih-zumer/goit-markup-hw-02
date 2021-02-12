@@ -1,7 +1,33 @@
+:root{
+    --text-content: rgb(117, 117, 117);
+    --text-white: rgb(255, 255, 255);
+}
+
 .text-white{
-    color: rgb(255, 255, 255);
+    color: var(--text-white);
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .text-white-a{
     color: rgba(255, 255, 255, 0.6);
+}
+
+.text-white-footer{
+    color: var(--text-white);
+}
+
+h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text{
+    font-size: 14px;
+}
+
+.text-auxiliary{
+    color: var(--text-content);
 }

@@ -2,22 +2,13 @@
     --text-main-color: rgb(33, 33, 33);
     --text-bg-blue: rgb(33, 150, 243);
     --text-bg-while: rgb(255, 255, 255);
-}
-
-.logotip-header{
-    color: rgb(00, 00, 00);
-}
-
-.logotip-footer{
-    color: var(--text-bg-while);
-}
-
-.logo-first {
-    color: var(--text-bg-blue);
+    --text-content: rgb(117, 117, 117);
 }
 
 body, a {
+    text-decoration: none;
     color: var(--text-main-color);
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
 }
 
 a:hover,
@@ -25,14 +16,46 @@ a.info:hover{
     color: var(--text-bg-blue);
 }
 
-.text-auxiliary{
-    color: rgb(75, 75, 75);
+nav{
+    font-size: 14px;
 }
 
-
 button{
+    font-size: 16px;
+    text-align: center;
     color: var(--text-bg-while);
     background-color: var(--text-bg-blue);
+}
+
+.logotip-header{
+    font-family: 'Raleway', 'Times New Roman', Times, serif;
+    font-size: 700;
+    font-size: 26px;
+    color: rgb(00, 00, 00);
+}
+
+.logotip-footer{
+    font-family: 'Raleway', 'Times New Roman', Times, serif;
+    font-size: 700;
+    font-size: 26px;
+    color: var(--text-bg-while);
+}
+
+.logo-first {
+    color: var(--text-bg-blue);
+}
+
+.text-card{
+    text-align: center;
+    font-size: 16px;
+}
+
+.text-card-title{
+    font-weight: 500;
+}
+
+.text-card-content{
+    color: var(--text-content);
 }
 
 .bg-second{
@@ -41,4 +64,8 @@ button{
 
 .bg-third{
     background-color: var(--text-bg-while);
+}
+
+address{
+    font-style: normal;
 }

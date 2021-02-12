@@ -1,9 +1,23 @@
 .filter{
     color: rgb(33, 33, 33);
     background-color: rgb(245, 244, 250);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .filter:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(33, 150, 243);
+}
+
+.txt-content{
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+    text-align: left;
+}
+
+.txt-title{
+    font-size: 18px;
+    text-align: left;
 }
