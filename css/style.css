@@ -3,12 +3,17 @@
     --text-bg-blue: rgb(33, 150, 243);
     --text-bg-while: rgb(255, 255, 255);
     --text-content: rgb(117, 117, 117);
+    --text-black: rgb(00, 00, 00);
+    --bg-second: rgb(47, 48, 58);
 }
 
 body, a {
     text-decoration: none;
     color: var(--text-main-color);
-    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+body{
+    font-family: 'Roboto' , serif;
 }
 
 a:hover,
@@ -28,15 +33,15 @@ button{
 }
 
 .logotip-header{
-    font-family: 'Raleway', 'Times New Roman', Times, serif;
-    font-size: 700;
+    font-family: 'Raleway', serif;
+    font-weight: 700;
     font-size: 26px;
-    color: rgb(00, 00, 00);
+    color: var(--text-black);
 }
 
 .logotip-footer{
-    font-family: 'Raleway', 'Times New Roman', Times, serif;
-    font-size: 700;
+    font-family: 'Raleway', serif;
+    font-weight: 700;
     font-size: 26px;
     color: var(--text-bg-while);
 }
@@ -59,7 +64,7 @@ button{
 }
 
 .bg-second{
-    background-color: rgb(47, 48, 58);
+    background-color: var;
 }
 
 .bg-third{

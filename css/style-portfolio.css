@@ -1,19 +1,27 @@
+:root{
+    --text-main-color: rgb(33, 33, 33);
+    --bg-while: rgb(245, 244, 250);
+    --text-txt-while: rgb(255, 255, 255);
+    --bg-blue: rgb(33, 150, 243);
+    --txt-content: rgb(117, 117, 117);
+}
+
 .filter{
-    color: rgb(33, 33, 33);
-    background-color: rgb(245, 244, 250);
+    color: var(--text-main-color);
+    background-color: var(--bg-while);
     font-size: 16px;
     text-align: center;
     font-weight: 500;
 }
 
 .filter:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(33, 150, 243);
+    color: var(--text-txt-while);
+    background-color: var(--bg-blue);
 }
 
 .txt-content{
     font-size: 16px;
-    color: rgb(117, 117, 117);
+    color: var(--txt-content);
     text-align: left;
 }
 
