@@ -1,35 +1,79 @@
 :root{
-    --text-content: rgb(117, 117, 117);
-    --text-white: rgb(255, 255, 255);
+    --txt-bg-while: rgb(255, 255, 255);     /*Былий для фону та тексту*/
+    --txt-bg-blue: rgb(33, 150, 243);       /*Блакитний для фону та тексту*/
+    --txt-content: rgb(117, 117, 117);      /*Додатковий колір тексту*/
+    --bg-light-gray: rgb(245, 244, 250);    /*Світло сірий фон*/
     --txt-a-blinck: rgba(255, 255, 255, 0.6);
 }
 
-.text-white{
-    color: var(--text-white);
-    font-size: 44px;
+/*=== Розширена шапка ===*/
+.head-h1{
+    color: var(--txt-bg-while);
     font-weight: 900;
-    text-align: center;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.head-button{
+    background-color: var(--txt-bg-blue);
+    color: var(--txt-main-color);
+    font-family: inherit;
+}
+/*=== /Розширена шапка ===*/
+
+/*=== блок характеристик ===*/
+.text, .text h3{
+    font-size: 14px;
+}
+
+.properties{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.text-white-a{
+.properties-content{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--txt-content);
+}
+
+.title-second{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/*=== /блок характеристик ===*/
+
+/*=== Карточки сотрудников ===*/
+.card-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.card-content{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--bg-light-gray);
+}
+/*=== /Карточки сотрудников ===*/
+
+/*.text-white-a{
     color: var(--txt-a-blinck);
 }
 
 .text-white-footer{
     color: var(--text-white);
-}
-
-h3{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 14px;
-}
-
-.text{
-    font-size: 14px;
-}
-
-.text-auxiliary{
-    color: var(--text-content);
 }
