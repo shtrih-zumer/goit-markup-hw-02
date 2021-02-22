@@ -43,6 +43,11 @@ ul{
     background-color: var(--bg-light-gray);
 }
 
+.visible{
+    background-color: var(--txt-bg-blue);
+    color: var(--txt-bg-while);
+}
+
 /*=*=*=*=*=*=*=*=*=*= /Основні налаштування =*=*=*=*=*=*=*=*=*=*/
 
 /*========== Блок header==========*/
