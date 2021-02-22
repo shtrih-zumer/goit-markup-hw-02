@@ -16,8 +16,13 @@
 
 .head-button{
     background-color: var(--txt-bg-blue);
-    color: var(--txt-main-color);
+    color: var(--txt-bg-while);
     font-family: inherit;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    font-weight: 700;
 }
 /*=== /Розширена шапка ===*/
 
@@ -66,7 +71,7 @@
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--bg-light-gray);
+    color: var(--txt-content);
 }
 /*=== /Карточки сотрудников ===*/
 
